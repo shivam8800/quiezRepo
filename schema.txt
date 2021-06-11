@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+quiezes
+-id, 6,7,8
+- title
+
+
+quieze_questions
+-id 
+-question_id = 1
+-quiez_id = 6
+
+-question_id = 2
+-quiez_id = 6
+
+
+-question_id = 2
+-quiez_id = 7
+
+-question_id = 5
+-quiez_id = 7
+ 
+ and so on
+
+
+questions
+- id, 1,2,3,4,5
+- title
+- answer(2) (rf from options table)
+
+options
+- id
+- option
+- question_id
+
+
+Submission(response)
+-id
+-quiez_id (rf from quiezes tables)
+
+
+
